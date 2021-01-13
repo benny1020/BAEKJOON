@@ -33,6 +33,11 @@ int main(void)
             {
                 j = check[j]-1;
             }
+            if(arr[i] == arr[j])
+            {
+                check[i] = check[j];
+                break;
+            }
         }
     }
 
